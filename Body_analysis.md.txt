@@ -1,0 +1,46 @@
+Email Body Analysis
+
+## 1️⃣ Greeting
+- "Dear Customer"
+- Generic greeting instead of real name.
+- **Suspicious:** Phishers often use generic greetings.
+
+## 2️⃣ Opening line
+- "We noticed unusual activity on your Microsoft account."
+- Creates fear and urgency.
+- **Suspicious:** Psychological manipulation.
+
+## 3️⃣ Instruction
+- "Click the link below to verify your account immediately."
+- Directs user to click a link.
+- **Suspicious:** Legit companies rarely ask this way.
+
+## 4️⃣ Link
+- http://m1crosoft-security.com/verify
+- Domain mismatch; may hide real URL behind text.
+- **Suspicious:** Leads to fake site.
+
+## 5️⃣ Threat
+- "Failure to verify within 24 hours will result in account suspension."
+- Adds urgency/threat.
+- **Suspicious:** Common phishing tactic.
+
+## 6️⃣ Grammar/formatting issues
+- Spelling mistakes or awkward phrases.
+- **Suspicious:** Professional emails usually error-free.
+
+## 7️⃣ Footer
+- "© 2025 Microsoft Corporation. All rights reserved."
+- May look official.
+- **Check:** Verify domain info matches real company.
+
+### Body Summary (Phishing Indicators)
+
+| Indicator | Description |
+|-----------|-------------|
+| Generic greeting | Not personalized |
+| Urgent/fear-based language | Psychological manipulation |
+| Suspicious links | Domain mismatch/fake site |
+| Threats | Pressure to act quickly |
+| Grammar/formatting errors | Low professionalism |
+| Copied footer | Tries to appear official |

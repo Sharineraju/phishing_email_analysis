@@ -1,0 +1,55 @@
+Email Header Analysis
+
+## 1️⃣ Return-Path
+- bounce@mailer.example.net
+- Legitimate Microsoft emails use @microsoft.com.
+- **Suspicious:** Domain mismatch — not from Microsoft.
+
+## 2️⃣ Received
+- from unknown (HELO mailserver123) (192.0.2.45)
+- Generic mail server and IP, not Microsoft.
+- **Suspicious:** Random server likely used by attackers.
+
+## 3️⃣ Received-SPF
+- SPF check failed.
+- Sender’s IP not authorized.
+- **Suspicious:** Could be spoofed.
+
+## 4️⃣ From
+- "Microsoft Support" <support@m1crosoft-security.com>
+- Looks official but domain uses "1" instead of "i".
+- **Suspicious:** Typo-squatting.
+
+## 5️⃣ Reply-To
+- support@microsoft.com
+- Different from From address.
+- **Suspicious:** Tricks user into trusting email.
+
+## 6️⃣ To
+- user@example.com
+- Normal but mass phishing may use generic recipients.
+
+## 7️⃣ Subject
+- Urgent: Verify your account immediately!
+- Uses fear/urgency.
+- **Suspicious:** Common phishing tactic.
+
+## 8️⃣ Message-ID
+- b92f6a4e-1234@example.net
+- Domain mismatch.
+- **Suspicious:** Not from official server.
+
+## 9️⃣ DKIM-Signature
+- d=example.org
+- DKIM domain doesn’t match claimed sender.
+- **Suspicious:** Possible spoofing.
+
+### Header Summary (Phishing Indicators)
+
+| Indicator | Description |
+|-----------|-------------|
+| Mismatched domains | Fake/spoofed sender |
+| SPF check failed | Sender server not authorized |
+| Urgent subject | Psychological manipulation |
+| Reply-To mismatch | Tricks to gain trust |
+| Generic server IP | Non-official mail source |

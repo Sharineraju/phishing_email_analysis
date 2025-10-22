@@ -1,0 +1,32 @@
+Safe Link Inspection
+
+## 1️⃣ Hover Over Link
+- Hover or long-press to see real URL.
+- **Red flag:** Display text may look legitimate but actual URL differs.
+
+## 2️⃣ Check Domain Carefully
+- Look for typos: m1crosoft vs microsoft
+- Extra words or wrong endings: .net, .org
+- **Suspicious:** Not official Microsoft domain.
+
+## 3️⃣ Use Online Link Scanners
+- VirusTotal or URLVoid
+- Paste URL to check for malware/phishing.
+
+## 4️⃣ Avoid Logging in From Email Links
+- Always visit official site manually: https://www.microsoft.com
+- **Never enter credentials** via email link unless verified.
+
+## 5️⃣ Check HTTPS & Certificate
+- Even HTTPS can be fake.
+- Look at certificate domain and issuer.
+
+### Link Inspection Summary
+
+| Step | Purpose |
+|------|---------|
+| Hover over link | Reveal real URL |
+| Check domain | Detect typosquatting or suspicious endings |
+| Online scanners | Confirm site safety |
+| Access official site manually | Avoid credential theft |
+| Check HTTPS & certificate | Ensure encryption & correct domain |

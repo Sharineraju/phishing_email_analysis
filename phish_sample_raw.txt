@@ -1,0 +1,32 @@
+Return-Path: <bounce@mailer.example.net>
+Received: from unknown (HELO mailserver123) (192.0.2.45)
+	by mx.example.com with SMTP; 22 Oct 2025 06:00:01 +0000
+Received-SPF: fail (mx.example.com: domain of support@m1crosoft-security.com does not designate 192.0.2.45 as permitted sender) client-ip=192.0.2.45;
+From: "Microsoft Support" <support@m1crosoft-security.com>
+Reply-To: support@microsoft.com
+To: user@example.com
+Subject: Urgent: Verify your account immediately!
+Message-ID: <b92f6a4e-1234@example.net>
+Date: Wed, 22 Oct 2025 05:59:58 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+DKIM-Signature: v=1; a=rsa-sha256; d=example.org; s=selector; b=...
+
+
+
+From: "Microsoft Support" <support@m1crosoft-security.com>
+To: user@example.com
+Subject: Urgent: Verify your account immediately!
+
+Dear user,
+
+We noticed unusual sign-in activity on your Microsoft account.
+To protect your information, your account will be temporarily suspended.
+
+Please verify your account immediately by clicking the link below:
+https://secure-microsoft-login-support.com/verify
+
+Failure to verify within 24 hours will result in permanent account deactivation.
+
+Thank you,
+Microsoft Account Security Team

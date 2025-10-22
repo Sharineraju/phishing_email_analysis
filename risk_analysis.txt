@@ -1,0 +1,41 @@
+Overall Risk Assessment
+
+## 1️⃣ Header Indicators Recap
+- Return-Path & Message-ID: Domains mismatch.
+- From Address: Typo-squatted domain.
+- SPF/DKIM: Failed or mismatched.
+- Reply-To: Different from From.
+- Server Info: Generic IP, not official.
+- **Assessment:** High chance of spoofing.
+
+## 2️⃣ Body Indicators Recap
+- Generic greeting.
+- Urgency/fear-based language.
+- Suspicious links.
+- Grammar/formatting mistakes.
+- Copied footer.
+- **Assessment:** Classic phishing content.
+
+## 3️⃣ Link Inspection Recap
+- Link points to fake domain (m1crosoft-security.com).
+- Verified unsafe with hover/scanners.
+- **Assessment:** Unsafe.
+
+## 4️⃣ Risk Verdict
+**This email is a phishing attempt.**
+
+| Risk Factor | Assessment |
+|------------|------------|
+| Header spoofing | High |
+| Urgent/fear content | High |
+| Link/domain mismatch | High |
+| Grammar/formatting issues | Medium |
+| Overall confidence | Very high — do not interact |
+
+## 5️⃣ Recommended Actions
+1. Do NOT click any links.
+2. Do NOT reply.
+3. Report to your email provider.
+4. Delete the email.
+5. Monitor your Microsoft account.
+6. Change your password if necessary.
